@@ -1,0 +1,17 @@
+{
+  "name": "album_exercise",
+  "version": "0.0.1",
+  "description": "pg promise exercise for create album",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "Eli",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^1.19.0",
+    "pg-promise": "^8.7.2",
+    "prompt-promise": "^1.0.3"
+  }
+}
