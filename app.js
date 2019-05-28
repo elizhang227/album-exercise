@@ -29,15 +29,27 @@ function main() {
     addArtist()
     .then(()=> {
         getArtists()
-            .then(artists => {
-                console.log(artists);
-                artists.map(artist => {
-                    console.log(artist.id, artist.artist_name);
-                });
+        .then(artists => {
+            console.log(artists);
+            artists.map(artist => {
+                console.log(artist.id, artist.artist_name);
             });
-            addArtist()
-        }
-    )
+            printTrack()
+        })  
+    })
+}
+
+function printTrack() {
+    addTrack()
+    .then(()=> {
+        getTracks()
+        .then(tracks => {
+            console.log(tracks);
+            tracks.map(track => {
+                console.log(track.track_name);
+                })
+            })   
+        })
 }
 
 function getTracks() {
