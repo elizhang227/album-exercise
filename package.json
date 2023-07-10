@@ -10,8 +10,8 @@
   "author": "Eli",
   "license": "ISC",
   "dependencies": {
-    "nodemon": "^1.19.0",
-    "pg-promise": "^8.7.2",
+    "nodemon": "^3.0.1",
+    "pg-promise": "^11.5.0",
     "prompt-promise": "^1.0.3"
   }
 }
